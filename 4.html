@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ImgChar</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;        
+        }
+        p{
+            display: inline;
+            padding: 20px;   
+            font-size: 20px;     
+        }
+    </style>
+</head>
+<body>
+    <h2>Membuat Gambar dengan beberapa karakter spesial!</h2>
+    <script>
+        var string = ['P','R','O','G','R','A','M','M','E','R'];
+        function cetakGambar() {
+            //membuat perulangan secara vertikal
+            for(var i = 0; i <= 9 ; i++){
+                //membuat perulangan secara horizontal
+                if( i < 5 ){
+                    for(var j = 0; j <= i; j++){
+                        if( j < i ){
+                            document.write('<p>=</p>');                 
+                        }else{
+                            document.write('<p>'+string[j]+'</p>');
+                        }
+                    }
+                    for(var g = i+1; g >= i; g--){
+                    for(var h = 4; h >= g; h--){
+                        if( h > i ){
+                            document.write('<p>=</p>');                 
+                        }else{
+                            document.write('<p>'+string[h]+'</p>');
+                        }
+                    }
+                    }
+                    for( var a = 1;a<=i; a++ ){
+                        document.write('<p>=</p>');
+                    }
+                }else{
+                    for(var k = 9; k >= i; k--){
+                        if( k > i ){
+                            document.write('<p>=</p>');                   
+                        }else{
+                            document.write('<p>'+string[k]+'</p>');
+                        }
+                    }
+                    for(var l = i-1; l <= i; l++){
+                    for(var m = 5; m <= l; m++){
+                        if( m < i ){
+                            document.write('<p>=</p>');                 
+                        }else{
+                            document.write('<p>'+string[m]+'</p>');
+                        }
+                    }
+                    }
+                    for( var a = i;a<=8; a++ ){
+                        document.write('<p>=</p>');
+                    }                    
+                }
+                document.write('<br />');
+            }
+        }
+        cetakGambar();
+    </script>
+</body>
+</html>

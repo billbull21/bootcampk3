@@ -21,3 +21,7 @@ Selain itu, format dari json dapat dikenali oleh berbagai platfrom/bahasa pemrog
 ### 3). File dengan nama "3.php"
 
 >> silahkan buka https://www.onlinegdb.com/ untuk mengecek file php nya. atau menggunakan localhost, dengan cara menaruh file      ini ke tempat htdocs / /var/www/html (sesuai direktori)
+
+### 4). File dengan nama "4.html"
+
+>> cukup dengan membuka browser, karena hanya pakai html dan javascript original

@@ -29,3 +29,5 @@ Selain itu, format dari json dapat dikenali oleh berbagai platfrom/bahasa pemrog
 ### 5). File dengan nama "5.html"
 
 >> cukup dengan membuka browser, karena hanya pakai html dan javascript original
+
+### 6). Waktu tidak cukup :'(

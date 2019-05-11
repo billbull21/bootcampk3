@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Array</title>
+</head>
+<body>
+    <script>
+        const value = 'abcdefghijkl';
+        var data = [
+            ['a','d','c'],
+            ['z','e','f'],
+            ['i','j','h']
+        ];
+        function data_array(data) {
+            var data0 = '['+data[0]+'],';
+            var data1 = '['+data[1]+'],';
+            var data2 = '['+data[2]+']';
+            return data = data0+data1+data2+'<br/>';
+        }
+
+        function sort_array(data) {
+            var data0 = data[0].sort();
+            data0 = data0.reverse().slice(0, 1);
+            var data1 = data[1].sort();
+            data1 = data1.reverse().slice(0, 1);
+            var data2 = data[2].sort();
+            data2 = data2.reverse().slice(0, 1);
+
+            return data = '['+data0+'], '+'['+data1+'], '+'['+data2+']';
+        }
+
+        document.writeln(data_array(data));
+        document.write('data diurutkan : '+sort_array(data));
+    </script>
+</body>
+</html>

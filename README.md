@@ -25,3 +25,7 @@ Selain itu, format dari json dapat dikenali oleh berbagai platfrom/bahasa pemrog
 ### 4). File dengan nama "4.html"
 
 >> cukup dengan membuka browser, karena hanya pakai html dan javascript original
+
+### 5). File dengan nama "5.html"
+
+>> cukup dengan membuka browser, karena hanya pakai html dan javascript original

@@ -19,7 +19,7 @@ function cetak($num){
             $prevData = $newData;
             echo $newData."<br/>";
         }else{
-            echo $prevData = getName()."<br/>";
+            //jika prevData dan newData sama, code akan mengulang inisialisasi dari index yang sama.
             $j--;        
         }            
     }

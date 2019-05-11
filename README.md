@@ -10,8 +10,9 @@ beberapa kodingan saya buat agar mudah untuk di tes, seperti menggunakan bahasa 
 
 API adalah singkatan dari Application Programming Interface, dan memungkinkan developer untuk mengintegrasikan dua bagian dari aplikasi atau dengan aplikasi yang berbeda secara bersamaan.
 
-Sedangkan kegunaan JSON sendiri pada API adalah,sebagai output data yang formatnya dapat dikenali oleh berbagai platfrom dan bahasa pemrograman. Selain JSON, kita juga bisa menggunakan XML untuk penggunaan API.
+Kegunaan JSON => Sebagai output yang di Keluarkan untuk API pada request yang di sediakan lewat link API. Dengan API Perangkat Android kita bisa terhubung dengan server, Dengan Kata Lain dari Android (client) -> server yang akan mengirim-kan sebuah param untuk penyimpanan data atau untuk yang lainnya.
 
+Selain itu, format dari json dapat dikenali oleh berbagai platfrom/bahasa pemrograman, sehingga memudahkan client untuk mengakses nya. Selain JSON, kita juga bisa menggunakan XML untuk penggunaan API.
 
 2). File dengan nama "2.js"
 

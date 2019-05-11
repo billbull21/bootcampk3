@@ -14,6 +14,10 @@ Kegunaan JSON => Sebagai output yang di Keluarkan untuk API pada request yang di
 
 Selain itu, format dari json dapat dikenali oleh berbagai platfrom/bahasa pemrograman, sehingga memudahkan client untuk mengakses nya. Selain JSON, kita juga bisa menggunakan XML untuk penggunaan API.
 
-2). File dengan nama "2.js"
+2). File dengan nama "2.php"
+
+>> silahkan buka https://www.onlinegdb.com/ untuk mengecek file php nya. atau menggunakan localhost, dengan cara menaruh file      ini ke tempat htdocs / /var/www/html (sesuai direktori)
+
+3). File dengan nama "3.php"
 
 >> silahkan buka https://www.onlinegdb.com/ untuk mengecek file php nya. atau menggunakan localhost, dengan cara menaruh file      ini ke tempat htdocs / /var/www/html (sesuai direktori)

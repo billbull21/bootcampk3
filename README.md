@@ -30,4 +30,8 @@ Selain itu, format dari json dapat dikenali oleh berbagai platfrom/bahasa pemrog
 
 >> cukup dengan membuka browser, karena hanya pakai html dan javascript original
 
-### 6). Waktu tidak cukup :'(
+### 6). Waktu tidak cukup, Folder "bootcamp"
+*Nanggung kalo ngggak di upload, web service error :)*
+>> buat sebuah database dengan nama *bootcamp* , pindah direktori bootcamp ke htdocs atau direktori web service anda.
+>> buat 2 table. skills -> id, nama_skill, user_id
+               >>users  -> id, nama

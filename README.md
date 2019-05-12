@@ -35,6 +35,6 @@ Selain itu, format dari json dapat dikenali oleh berbagai platfrom/bahasa pemrog
 >> buat sebuah database dengan nama *bootcamp* , pindah direktori bootcamp ke htdocs atau direktori web service anda.
 >> buat 2 table. 
 
-skills -> id, nama_skill, user_id
-users  -> id, nama
-foreign key skills.user_id on users.id
+#### skills -> id, nama_skill, user_id
+#### users  -> id, nama
+#### foreign key skills.user_id on users.id

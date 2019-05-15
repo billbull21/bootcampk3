@@ -38,3 +38,5 @@ Selain itu, format dari json dapat dikenali oleh berbagai platfrom/bahasa pemrog
 #### skills -> id, nama_skill, user_id
 #### users  -> id, nama
 #### foreign key skills.user_id on users.id
+
+![ScreenShot](https://i.imgur.com/h2R9clu.png)
